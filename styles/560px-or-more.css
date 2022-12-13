@@ -1,0 +1,38 @@
+@media screen and (max-width:560px) {
+    #main-nav {
+        height: 1.5em;
+    }
+    #main-nav > ul > li{
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    #main-header{
+        height: 100vh;
+    }
+    #main-header> h1{
+       font-size: 5em;
+       width: 100px;
+       margin: auto;
+    }
+    #main-header> h2{
+        font-size: 0;
+    }
+    #main-content > main{
+        flex-direction: column;
+        
+        
+    }
+    #main-content > main > figure> img{
+        width: 400px;
+        height:400px;
+        margin: auto;
+    }
+    #main-content > main> figure{
+        margin-bottom: 16em;
+
+    }
+    #main-content > main> p{
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 760px){
+    #main-header > h1{
+        font-size: 3em;
+    }
+    #main-content > main{
+        float: unset;
+        margin: auto;
+       
+    }
+    #main-content > aside{
+       margin: auto;
+       width: 100%;
+       padding: 2em;
+    }
+    #main-content > aside > ul> li{
+        margin:1em 0;
+        
+    }
+    #social-nav{
+        margin: 0.3em;
+        padding: 0.3 0;
+    };
+}

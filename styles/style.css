@@ -1,0 +1,141 @@
+@import url(./reset.css);
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION */
+#main-nav{
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    padding: 1.5em;
+}
+#main-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main-nav ul li{
+    font-size: 1.5em;
+   
+}
+#main-nav ul li a{
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+}
+#main-nav ul li a:hover{
+background-color: white;
+color:  rgb(87, 87, 87);
+}
+
+
+/* HEADER */
+
+#main-header{
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+}
+
+#main-header h1,h2{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2em;    
+}
+#main-header h1{
+    font-size: 3.7em;
+    color: white;
+
+}
+#main-header h2{
+    font-size: 2.4em;
+    color: white;
+    padding-top: unset;
+}
+/* MAIN CONTENT */
+#main-content > main{
+    float: left;
+    padding: 1.5em;
+    max-width: 70%;
+    margin-top: 1em;
+    
+}
+
+#main-content > main > figure{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+    
+}
+
+#main-content > main > p{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+/* ASIDE */
+#main-content> aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2em;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+#main-content > aside > h2 {
+    font-size: 1.5em;
+    background-color: rgba(147, 142, 142, 0.5);
+    padding-top: unset;
+    padding: 1em;
+
+}
+#main-content > aside >ul> li> strong{
+ font-weight: 800;
+}
+#main-content > aside > ul > li:nth-child(2){
+    background-color: rgba(130, 124, 124, 0.5);
+    margin:0.5em 0;
+    padding: 3px 0;
+}
+
+#main-content > aside > ul > li:nth-child(4){
+    background-color: rgba(130, 124, 124, 0.5);
+    margin:0.5em 0;
+    padding: 3px 0;
+}
+/* FOOTER */
+footer{
+    background-color: rgb(87, 87, 87);
+    height:12em;
+}
+#social-nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+#social-nav ul li{
+    margin: 1em;
+
+}
+#social-nav img{
+    width: 40px;
+    height: 40px;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
